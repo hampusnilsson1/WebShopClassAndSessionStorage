@@ -1,0 +1,43 @@
+html{
+    background-color: rgb(250, 250, 250);
+}
+p{
+    display: inline;
+    width: 30%;
+    text-align: center;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 5% 1% 5%;
+}
+.container{
+    background-color: rgb(226, 226, 226);
+    width: 42%;
+    height: 500px;
+    border-radius: 5px;
+    padding: 2.5%;
+}
+.containerlabel{
+    text-align: center;
+    margin: 7px auto;
+}
+.productcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 0.5%;
+}
+.buybutton{
+    width: 30%;
+}
+.buybutton:hover{
+    cursor: pointer;
+}
+#checkoutbutton{
+    float: right;
+    margin-right: 5%;
+    padding: 5px;
+}
